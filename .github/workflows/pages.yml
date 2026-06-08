@@ -38,6 +38,10 @@ jobs:
           mkdir -p docs
           cp -a dist/. docs/
 
+          # Also copy any source assets (images) that may not have been emitted into dist
+          mkdir -p docs/assets
+          cp -a src/assets/. docs/assets/ || true
+
       - name: Commit and push docs to main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
