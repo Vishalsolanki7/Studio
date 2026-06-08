@@ -25,7 +25,7 @@ function Header({ active, setActive }) {
       <div className="brand">
         <div className="logo" aria-hidden />
         <div>
-          <div className="title">Serenity Studio</div>
+          <div className="title">A&R Massage Studio</div>
           <div className="subtitle">Massage & Wellness</div>
         </div>
       </div>
@@ -210,7 +210,7 @@ export default function App() {
         {active === 'employee' && <EmployeeView />}
         {active === 'admin' && <AdminView />}
       </div>
-      <footer className="studio-footer">© Serenity Studio — Demo POC</footer>
+      <footer className="studio-footer">© A&R Massage Studio — Demo POC</footer>
     </div>
   )
 }

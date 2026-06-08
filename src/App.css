@@ -3,8 +3,8 @@
   --bg: #fff7f2;
   --card: #ffffff;
   --muted: #6b6b6b;
-  --accent: #d07bff;
-  --accent-2: #ffb7a3;
+  --accent: #2e8b57;
+  --accent-2: #a8e6cf;
   --glass: rgba(255,255,255,0.6);
   --shadow: 0 8px 24px rgba(18,18,18,0.08);
   --glass-2: rgba(255,255,255,0.85);
@@ -34,10 +34,10 @@ nav button.active{background:linear-gradient(90deg,var(--accent),var(--accent-2)
 .hero{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:center;margin-bottom:14px}
 .hero-content h1{font-size:36px;margin:0 0 8px;line-height:1.02}
 .hero-content p{margin:0;color:var(--muted)}
-.hero-cta{display:inline-block;margin-top:12px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:10px 16px;border-radius:12px;font-weight:700;cursor:pointer;box-shadow:0 12px 30px rgba(208,123,255,0.14)}
+.hero-cta{display:inline-block;margin-top:12px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:10px 16px;border-radius:12px;font-weight:700;cursor:pointer;box-shadow:0 12px 30px rgba(46,139,87,0.10)}
 .hero-image{height:220px;border-radius:14px;background-size:cover;background-position:center;box-shadow:var(--shadow);overflow:hidden;position:relative}
 .hero-image::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.06))}
-.hero-image::before{content:'';position:absolute;right:-40px;top:-40px;width:160px;height:160px;background:radial-gradient(circle at 30% 30%, rgba(208,123,255,0.14), transparent 40%);filter:blur(18px);transform:rotate(10deg)}
+.hero-image::before{content:'';position:absolute;right:-40px;top:-40px;width:160px;height:160px;background:radial-gradient(circle at 30% 30%, rgba(46,139,87,0.10), transparent 40%);filter:blur(18px);transform:rotate(10deg)}
 
 /* services */
 .services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
